@@ -4,7 +4,8 @@
     --main-color-3: #615A70;
     --main-color-4: #7986A1;
     --main-color-5: #313F7B;
-    --main-white-text-color: #e8e8e8
+    --main-white-text-color: #e8e8e8;
+    --main-bg-black: #272727;
 }
 
 
@@ -153,3 +154,8 @@
     background-color: var(--main-color-4);
 }
 /*lalala*/
+
+footer{
+    background-color: var(--main-bg-black);
+    color: var(--main-white-text-color);
+}
