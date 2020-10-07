@@ -6,6 +6,8 @@
     --main-color-5: #313F7B;
     --main-white-text-color: #e8e8e8;
     --main-bg-black: #272727;
+    --main-bg-zelena: #477;
+    --main-bg-modra: #228ac7ad;
 }
 
 
@@ -42,6 +44,14 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.main-section-2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
 }
 
 
@@ -118,12 +128,40 @@
     padding: 5px;
     border: 1px solid var(--main-white-text-color);
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.vyska{
+    height: 60px;
+}
+.prednaska{
+    background-color: var(--main-bg-zelena);
+}
+.cvicenie{
+     background-color: var(--main-bg-modra);
 }
 .row-20{
     width: 20%!important;
 }
 .row-0{
     width: 0;
+}
+
+.table-row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.table-row-1 > div{
+    width: 15%;
+    padding: 5px;
+    border: 1px solid var(--main-white-text-color);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 
