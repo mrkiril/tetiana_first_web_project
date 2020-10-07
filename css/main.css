@@ -141,6 +141,15 @@
 .cvicenie{
      background-color: var(--main-bg-modra);
 }
+
+.row-70{
+    width: 70%;
+}
+
+.row-30{
+    width: 30%;
+}
+
 .row-20{
     width: 20%!important;
 }
@@ -191,9 +200,9 @@
 .bg-gray {
     background-color: var(--main-color-4);
 }
-/*lalala*/
 
 footer{
     background-color: var(--main-bg-black);
     color: var(--main-white-text-color);
 }
+
